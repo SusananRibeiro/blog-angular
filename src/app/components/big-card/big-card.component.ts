@@ -8,11 +8,11 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BigCardComponent implements OnInit {
 
   @Input()
-  photoCover:string =""
+  photoCover:string ="" // deixa a imagem dinâmica
   @Input()
-  cardTitle:string= ""
+  cardTitle:string= "" // deixa o título dinâmico
   @Input()
-  cardDescription:string =""
+  cardDescription:string ="" // deixa a descrição dinâmica
   @Input()
   Id:string="0"
 
